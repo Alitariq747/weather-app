@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@400;900&family=Outfit:wght@300&family=Ubuntu&display=swap');
+
+
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: url('/public/assets/clouds.jpg') ;
+    background-size: cover;
+    
+}
+.container {
+    text-align: center;
+    padding-top: 30px;
+}
+.input {
+    padding-bottom: 40px;
+    
+}
+input {
+    border-radius: 10px;
+    border: 1px slategray;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(202, 198, 198);
+}
+::placeholder{
+    font-size: .8rem;
+    font-family: 'Outfit', sans-serif;
+}
+.top {
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+}
+.middle {
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 60%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,0.2);
+}
